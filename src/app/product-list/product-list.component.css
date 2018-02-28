@@ -1,0 +1,12 @@
+.item {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid #898989;
+    margin: 20px 0;
+    max-width: 700px;
+}
+
+.selected {
+    border: 1px solid red;
+}

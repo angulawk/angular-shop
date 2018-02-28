@@ -27,15 +27,11 @@ export class AppComponent {
       ),
       new Product(
         'NICEHAT',
-        'A Nice Black Hat',
-        '/assets/images/products/black-hat.jpg',
+        'A Nice Black Shoes',
+        '/assets/images/products/black-shoes.jpg',
         ['Men', 'Accessories', 'Hats'],
-        29.99
+        294.99
       )
     ]
-  }
-
-  productWasSelected(product: Product): void {
-    console.log("Clicked ", product);
   }
 }
